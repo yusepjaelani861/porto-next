@@ -1,0 +1,15 @@
+.clip-plus {
+    animation: animation-plus .4s 1 linear both;
+}
+
+.clip-plus-left {
+    clip-path: inset(0% 40% 40% 0%);
+}
+
+.clip:hover>.clip-plus {
+    /* animation: open-plus 0.5s 1 linear both; */
+}
+
+.clip-section-bottom {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4rem), 0 100%);
+}

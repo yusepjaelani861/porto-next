@@ -1,0 +1,41 @@
+@keyframes animation-plus {
+    0% {
+        clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%, 50% 50%);
+        /* clip-path: polygon(0% 0%, 35% 0%, 35% 0%, 100% 0%, 100% 35%, 100% 35%, 100% 100%, 65% 100%, 65% 100%, 0% 100%, 0% 64%, 0 64%); */
+        opacity: 0;
+    }
+
+    100% {
+        clip-path: polygon(0% 37%, 35% 37%, 35% 0%, 65% 0%, 65% 37%, 100% 37%, 100% 64%, 65% 64%, 65% 100%, 36% 100%, 36% 64%, 0 64%);
+        opacity: 1;
+    }
+}
+
+@keyframes open-plus {
+    0% {
+        clip-path: polygon(0% 37%, 35% 37%, 35% 0%, 65% 0%, 65% 37%, 100% 37%, 100% 64%, 65% 64%, 65% 100%, 36% 100%, 36% 64%, 0 64%);
+    }
+
+    100% {
+        clip-path: polygon(0% 0%, 35% 0%, 35% 0%, 100% 0%, 100% 35%, 100% 35%, 100% 100%, 65% 100%, 65% 100%, 0% 100%, 0% 64%, 0 64%);
+    }
+}
+
+@keyframes cloud {
+    0% {
+        transform: translateX(80%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(80%);
+    }
+}
+
+.cloud-infinite {
+    transform: translateX(10%);
+    animation: cloud 50s infinite;
+}

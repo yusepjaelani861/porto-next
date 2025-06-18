@@ -1,0 +1,51 @@
+/* Webfont: AktifGroteskCorp-Regular */
+@font-face {
+    font-family: "AktifGroteskCorp-Regular";
+    src: url("/assets/fonts/AktifGroteskCorp-Regular.eot");
+    src: url("/assets/fonts/AktifGroteskCorp-Regular.eot?#iefix") format("embedded-opentype"),
+        url("/assets/fonts/AktifGroteskCorp-Regular.ttf") format("truetype"),
+        url("/assets/fonts/AktifGroteskCorp-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+/* Webfont: AktifGroteskCorp-Medium */
+@font-face {
+    font-family: "AktifGroteskCorp-Medium";
+    src: url("/assets/fonts/AktifGroteskCorp-Medium.eot");
+    src: url("/assets/fonts/AktifGroteskCorp-Medium.eot?#iefix") format("embedded-opentype"),
+        url("/assets/fonts/AktifGroteskCorp-Medium.ttf") format("truetype"),
+        url("/assets/fonts/AktifGroteskCorp-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+/* Webfont: AktifGroteskCorp-Light */
+@font-face {
+    font-family: "AktifGroteskCorp-Light";
+    src: url("/assets/fonts/AktifGroteskCorp-Light.eot");
+    src: url("/assets/fonts/AktifGroteskCorp-Light.eot?#iefix") format("embedded-opentype"),
+        url("/assets/fonts/AktifGroteskCorp-Light.ttf") format("truetype"),
+        url("/assets/fonts/AktifGroteskCorp-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+/* Webfont: AktifGroteskCorp-Bold */
+@font-face {
+    font-family: "AktifGroteskCorp-Bold";
+    src: url("/assets/fonts/AktifGroteskCorp-Bold.eot");
+    src: url("/assets/fonts/AktifGroteskCorp-Bold.eot?#iefix") format("embedded-opentype"),
+        url("/assets/fonts/AktifGroteskCorp-Bold.ttf") format("truetype"),
+        url("/assets/fonts/AktifGroteskCorp-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}

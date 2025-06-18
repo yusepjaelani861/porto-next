@@ -1,0 +1,31 @@
+@keyframes transition-up {
+    0% {
+        transform: translateY(35px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes transition-down {
+    0% {
+        transform: translateY(-35px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.transition-up {
+    animation: transition-up .5s 1 linear both;
+}
+
+.transition-down {
+    animation: transition-down .5s 1 linear both;
+}

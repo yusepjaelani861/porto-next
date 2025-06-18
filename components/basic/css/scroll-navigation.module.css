@@ -1,0 +1,98 @@
+.scroll-navigation {
+    height: 70vh;
+}
+
+.scroll-navigation span {
+    height: 9px;
+    width: 9px;
+    display: block;
+    position: relative;
+    margin-right: .8rem;
+    left: 0px;
+}
+
+.scroll-navigation span::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    @apply bg-white;
+    transition: all .2s ease-in-out;
+    left: 0;
+    border-radius: 2px;
+}
+
+.scroll-navigation li:hover>span::before {
+    width: 16px;
+    left: -4px;
+}
+
+.nav-active>span::before {
+    width: 16px;
+    height: 16px;
+    left: -4px;
+    top: -4px;
+    border-radius: 4px;
+}
+
+.scroll-navigation::before {
+    position: absolute;
+    content: "";
+    height: calc(100% - 9px);
+    width: 1px;
+    /* background-color: #fff; */
+    @apply bg-white;
+    left: 4px;
+    top: 4px;
+}
+
+.scroll-navigation-bg-white span::before {
+    background-color: white;
+}
+
+.scroll-navigation-bg-white::before {
+    background-color: white;
+}
+
+.scroll-navigation li {
+    color: transparent;
+}
+
+.nav-active-bg-white {
+    color: #fff !important;
+}
+
+.nav-active-bg-gradient-black {
+    color: #0f0c29 !important;
+}
+
+.scroll-navigation-bg-white li:hover {
+    color: #fff;
+}
+
+.scroll-navigation-bg-gradient-black span::before {
+    background-color: #0f0c29;
+}
+
+.scroll-navigation-bg-gradient-black::before {
+    background-color: #0f0c29;
+}
+
+.scroll-navigation-bg-gradient-black li:hover {
+    color: #0f0c29;
+}
+
+.nav-label-active-bg-white {
+    padding: 4px 8px;
+    color: black;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.nav-label-active-bg-gradient-black {
+    padding: 4px 8px;
+    color: #fff;
+    background-color: #0f0c29;
+    border-radius: 4px;
+}
